@@ -176,7 +176,7 @@ textarea {
 body {
   font-size: 14px;
   line-height: 24px;
-  color: #777777;
+  color: #001F5B;
   font-family: 'robotoregular';
   overflow-x: hidden;
 }
@@ -195,7 +195,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5 {
-  color: #555555;
+  color: #001F5B;
 }
 
 ::-webkit-input-placeholder {
@@ -220,6 +220,7 @@ h1, h2, h3, h4, h5 {
 .banner-bg {
   float: right;
   width: 78%;
+  background:  # #A59D94;
 }
 @media screen and (max-width: 1290px) {
   .main-content,
@@ -348,11 +349,11 @@ h3.profile-title {
 
 .social-icons {
   display: block;
-  padding: 30px 40px;
+  padding: 20px 40px;
 }
 .social-icons li {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 15px;
 }
 .social-icons a {
   font-size: 18px;
@@ -363,7 +364,7 @@ h3.profile-title {
 }
 
 .responsive-header {
-  background: #152B0E;
+  background: #001F5B;
   text-align: center;
 }
 @media screen and (max-width: 992px) {
@@ -405,10 +406,10 @@ h3.profile-title {
     padding: 10px;
   }
   .main-navigation a.active {
-    background: #1B6E6 !important;
+    background: #001F5B !important;
   }
   .main-navigation a:hover {
-    background: #5f6d7e !important;
+    background: #3db7e4 !important;
   }
 }
 
@@ -417,12 +418,12 @@ h3.profile-title {
   display: block;
   padding: 20px;
   margin-top: 30px;
-  background: #1B6E6;
+  background: #001F5B;
   color: white;
   font-size: 18px;
 }
 .toggle-menu:hover {
-  color: #43C918;
+  color:#3db7e4;
 }
 
 /*---------------------------------------------------------
@@ -567,10 +568,11 @@ h3.profile-title {
 #footer p.copyright-text {
   margin: 40px 0;
   font-size: 13px;
+  color: #001F5B;
 }
 #footer p.copyright-text a {
-  color: #5f6d7e;
+  color: #001F5B;
 }
 #footer p.copyright-text a:hover {
-  color: #1B6E6;
+  color: #3db7e4;
 }
